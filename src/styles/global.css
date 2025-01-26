@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#__next {
+    height: 100%; /* Для контейнера Next.js */
+}
+
+.scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: #4B5563 #F3F4F6;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #4B5563;
+    border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+    background: #F3F4F6;
+}
